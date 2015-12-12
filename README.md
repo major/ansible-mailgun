@@ -1,6 +1,8 @@
 ansible-mailgun
 ===============
 
+[![Build Status](https://travis-ci.org/major/ansible-mailgun.svg?branch=master)](https://travis-ci.org/major/ansible-mailgun)
+
 This role configures postfix to use [Mailgun](http://mailgun.com) for outgoing
 email on Linux servers.
 
