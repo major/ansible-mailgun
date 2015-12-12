@@ -1,6 +1,6 @@
 ---
 
-- name: Install packages
+- name: Install packages (Debian)
   apt:
     name: "{{ item }}"
     state: present

@@ -36,3 +36,9 @@
     - { regexp: "^smtp_sasl_security_options", line: "smtp_sasl_security_options = noanonymous" }
   notify:
     - restart postfix
+
+- name: Ensure Postfix has started and will start on reboot
+  service:
+    name: postfix
+    state: started
+    enabled: yes
