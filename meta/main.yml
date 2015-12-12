@@ -90,9 +90,9 @@ galaxy_info:
   #  - quantal
   #  - raring
   #  - saucy
-   - trusty
-   - utopic
-   - vivid
+    - trusty
+    - utopic
+    - vivid
   #- name: SLES
   #  versions:
   #  - all
@@ -128,10 +128,10 @@ galaxy_info:
   #- database:nosql
   #- database:sql
   #- development
-  - monitoring
+   - monitoring
   #- networking
   #- packaging
-  - system
+   - system
   #- web
 dependencies: []
   # List your role dependencies here, one per line.
