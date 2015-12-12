@@ -1,0 +1,8 @@
+---
+
+# Mailgun SMTP documentation:
+#
+#    https://documentation.mailgun.com/user_manual.html#sending-via-smtp
+#
+mailgun_username: username@example.com
+mailgun_password: supersecret

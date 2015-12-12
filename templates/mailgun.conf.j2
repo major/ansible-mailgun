@@ -1,0 +1,10 @@
+# {{ ansible_managed }}
+
+# Mailgun configuration
+relayhost = [smtp.mailgun.org]:587
+smtp_tls_security_level = may
+smtpd_tls_security_level = may
+smtp_tls_note_starttls_offer = yes
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = static:{{ mailgun_username }}:{{ mailgun_password }}
+smtp_sasl_security_options = noanonymous
