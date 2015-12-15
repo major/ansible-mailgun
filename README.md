@@ -10,7 +10,7 @@ Requirements
 ------------
 
 Ansible 1.9 is strongly recommended, but Ansible 1.8 should work (unless
-you're on Fedora).
+you're on Fedora, then you need 1.9 for sure for `dnf` support).
 
 Role Variables
 --------------
