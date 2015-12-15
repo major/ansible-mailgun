@@ -1,5 +1,8 @@
 ---
 
+- name: Ensure yum-utils is installed
+  raw: dnf -y install yum-utils
+
 - name: Install packages (Fedora)
   dnf:
     name: "{{ item }}"
