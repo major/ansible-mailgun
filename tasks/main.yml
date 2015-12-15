@@ -42,3 +42,11 @@
     name: postfix
     state: started
     enabled: yes
+
+- name: Set root's email forward
+  lineinfile:
+    dest: /root/.forward
+    create: yes
+    line: "{{ root_forward }}"
+  when:
+    - root_forward is defined
