@@ -7,4 +7,4 @@
   dnf:
     name: "{{ item }}"
     state: present
-  with_items: postfix_packages
+  with_items: "{{ postfix_packages }}"
