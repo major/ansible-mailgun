@@ -11,15 +11,15 @@
   tags:
     - always
 
-- include: fedora.yml
+- import_tasks: fedora.yml
   when: ansible_distribution == 'Fedora'
 
-- include: redhat.yml
+- import_tasks: redhat.yml
   when:
     - ansible_os_family == 'RedHat'
     - ansible_distribution != 'Fedora'
 
-- include: debian.yml
+- import_tasks: debian.yml
   when: ansible_os_family == 'Debian'
 
 - name: Include Mailgun configuration in main.conf
