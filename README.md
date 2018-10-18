@@ -1,7 +1,7 @@
 ansible-mailgun
 ===============
 
-[![Build Status](https://travis-ci.org/major/ansible-mailgun.svg?branch=master)](https://travis-ci.org/major/ansible-mailgun)
+[![Build Status](https://travis-ci.org/pulse-mind/ansible-mailgun.svg?branch=master)](https://travis-ci.org/pulse-mind/ansible-mailgun)
 
 This role configures postfix to use [Mailgun](http://mailgun.com) for outgoing
 email on Linux servers.
@@ -9,7 +9,7 @@ email on Linux servers.
 Requirements
 ------------
 
-Ansible 1.9 is strongly recommended, but Ansible 1.8 should work (unless
+Ansible 2.7 is strongly recommended, but Ansible 2.4 should work (unless
 you're on Fedora, then you need 1.9 for sure for `dnf` support).
 
 Role Variables
@@ -41,4 +41,4 @@ Apache 2.0
 Author Information
 ------------------
 
-[Major Hayden](http://majorhayden.com)
+Original Author : [Major Hayden](http://majorhayden.com)
