@@ -5,6 +5,5 @@
 
 - name: Install packages (Fedora)
   dnf:
-    name: "{{ item }}"
+    name: "{{ postfix_packages }}"
     state: present
-  with_items: "{{ postfix_packages }}"
