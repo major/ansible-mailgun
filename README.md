@@ -1,7 +1,7 @@
 ansible-mailgun
 ===============
 
-[![Build Status](https://travis-ci.org/pulse-mind/ansible-mailgun.svg?branch=master)](https://travis-ci.org/pulse-mind/ansible-mailgun)
+[![Build Status](https://travis-ci.org/major/ansible-mailgun.svg?branch=master)](https://travis-ci.org/major/ansible-mailgun)
 
 This role configures postfix to use [Mailgun](http://mailgun.com) for outgoing
 email on Linux servers.
@@ -20,6 +20,7 @@ the following:
 
 * _mailgun_username_ - your Mailgun SMTP username
 * _mailgun_password_ - your Mailgun SMTP password
+* _smtp.mailgun.org_ - the Mailgun SMTP, default is smtp.mailgun.org, for EU use smtp.eu.mailgun.org
 
 **Please note:** This is your SMTP username/password combination, not the
 credentials you use to access the Mailgun dashboard on the website. The SMTP
@@ -41,4 +42,4 @@ Apache 2.0
 Author Information
 ------------------
 
-Original Author : [Major Hayden](http://majorhayden.com)
+[Major Hayden](http://majorhayden.com)
