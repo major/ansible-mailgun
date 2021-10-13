@@ -6,6 +6,7 @@
 #
 mailgun_username: username@example.com
 mailgun_password: supersecret
+mailgun_smtp: smtp.mailgun.org
 
 # Who should receive root's email?
 #root_forward: user@example.com
