@@ -20,7 +20,7 @@ the following:
 
 * _mailgun_username_ - your Mailgun SMTP username
 * _mailgun_password_ - your Mailgun SMTP password
-* _smtp.mailgun.org_ - the Mailgun SMTP, default is smtp.mailgun.org, for EU use smtp.eu.mailgun.org
+* _mailgun_smtp_ - the Mailgun SMTP, default is smtp.mailgun.org, for EU use smtp.eu.mailgun.org
 
 **Please note:** This is your SMTP username/password combination, not the
 credentials you use to access the Mailgun dashboard on the website. The SMTP

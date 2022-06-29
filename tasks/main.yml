@@ -28,7 +28,7 @@
     line: "{{ item.line }}"
     regexp: "{{ item.regexp }}"
   with_items:
-    - { regexp: "^relayhost", line: "relayhost = [smtp.mailgun.org]:587" }
+    - { regexp: "^relayhost", line: "relayhost = [{{ mailgun_smtp }}]:587" }
     - { regexp: "^smtp_tls_security_level", line: "smtp_tls_security_level = encrypt" }
     - { regexp: "^smtp_tls_note_starttls_offer", line: "smtp_tls_note_starttls_offer = yes" }
     - { regexp: "^smtp_sasl_auth_enable", line: "smtp_sasl_auth_enable = yes" }
